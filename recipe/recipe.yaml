@@ -1,6 +1,6 @@
 context:
   name: mparray
-  version: "0.1.0"
+  version: "0.2.1"
   python_min: "3.13"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 43619df7a775a6134ddcca3e5ac54dfe60836bbab9f64878e8a379960f169deb
+  sha256: 61cb99fb52cfc098a1ab2933e746569678a6c9c081ad1d41d8dc39c83338ab67
 
 build:
   noarch: python

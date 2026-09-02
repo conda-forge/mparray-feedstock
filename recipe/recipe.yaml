@@ -1,7 +1,7 @@
 context:
   name: mparray
   version: "0.2.2"
-  python_min: "3.13"
+  python_min: "3.11"
 
 package:
   name: ${{ name|lower }}
